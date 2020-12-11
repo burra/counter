@@ -8,19 +8,28 @@ Depends
 
 Analyze files
 
+
 * ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter.vhd
 * ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter_tb.vhd
 
 Elaborate Testbench
+
+
 ghdl -e --std=08 -Wl,-lgcov -Wl,--coverage counter_tb
 
 Run the test bench code and make a GTKwave file
-./counter_TB --wave=counter_TB.ghw
+
+
+./counter_TB --wave=counter_tb.ghw
 
 You will get two files:
+
+
 .gcno and.gcda
 
 lcov -t "counter_tb_coverage" -o covarage.info -c -d ./
+
+
 
 Here covarage.info is my output file.
 
