@@ -1,6 +1,6 @@
-.o
-.gcno
-.cf
-.info
-.ghw
-./out
+*.o
+*.gcno
+*.cf
+*.info
+*.ghw
+**/out
