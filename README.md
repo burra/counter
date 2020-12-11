@@ -1,6 +1,6 @@
 # Example how to make a coverage report with GHDL
 
-Dependencies: The ones from Arch-Linux stable repo works. 2020-12-11
+Dependencies: The ones from Arch-Linux stable repo works. 2020-12-11 
 
 * ghdl v0.37 built with gcc 10.2.0
 * gcc v10.2.0
