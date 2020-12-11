@@ -23,9 +23,10 @@ You will get two files:
 lcov -t "counter_tb_coverage" -o covarage.info -c -d ./
 
 Here covarage.info is my output file.
--t sets a test name
--o to specify the output file
--c to capture the coverage data
--d to specify the directory where the data files needs to be searched
+
+-t sets a test name\n
+-o to specify the output file\n
+-c to capture the coverage data\n
+-d to specify the directory where the data files needs to be searched\n
 
 genhtml -o res counter_tb_coverage.info
