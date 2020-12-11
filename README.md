@@ -27,7 +27,7 @@ You will get two files:
 
 .gcno and .gcda
 
-lcov -t "counter_tb_coverage" -o covarage.info -c -d ./
+lcov -t "counter_tb_coverage" -o counter_tb_covarage.info -c -d ./
 
 
 
@@ -38,4 +38,4 @@ Here covarage.info is my output file.
 * -c to capture the coverage data
 * -d to specify the directory where the data files needs to be searched
 
-genhtml -o res counter_tb_coverage.info
+genhtml -o coverage_report counter_tb_coverage.info
