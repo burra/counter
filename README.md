@@ -20,14 +20,14 @@ ghdl -e --std=08 -Wl,-lgcov -Wl,--coverage counter_tb
 Run the test bench code and make a GTKwave file
 
 
-./counter_TB --wave=counter_tb.ghw
+./counter_tb --wave=counter_tb.ghw
 
 You will get two files:
 
 
-.gcno and.gcda
+.gcno and .gcda
 
-lcov -t "counter_tb_coverage" -o covarage.info -c -d ./
+lcov -t "counter_tb_coverage" -o covarage.info -c -d ./out
 
 
 
