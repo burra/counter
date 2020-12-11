@@ -1,10 +1,13 @@
 # Example how to make a coverage report with GHDL
 
-Depends
-* ghdl
-* gcc
-* gcov
-* lcov
+Dependencies: the ones from Arch-Linux stable repo works.
+
+* ghdl v0.37 built with gcc 10.2.0
+* gcc v10.2.0
+* gcov v10.2.0
+* lcov v1.15
+
+
 
 Analyze files
 
@@ -39,3 +42,5 @@ Here covarage.info is my output file.
 * -d to specify the directory where the data files needs to be searched
 
 genhtml -o coverage_report counter_tb_coverage.info
+
+## TODO ## make build script
