@@ -8,8 +8,8 @@ Depends
 
 Analyze files
 
-ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter.vhd
-ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter_TB.vhd
+* ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter.vhd
+* ghdl -a --std=08 -g -fprofile-arcs -ftest-coverage counter_tb.vhd
 
 Elaborate Testbench
 ghdl -e --std=08 -Wl,-lgcov -Wl,--coverage counter_tb
