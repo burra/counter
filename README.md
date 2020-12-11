@@ -27,7 +27,7 @@ You will get two files:
 
 .gcno and .gcda
 
-lcov -t "counter_tb_coverage" -o covarage.info -c -d ./out
+lcov -t "counter_tb_coverage" -o covarage.info -c -d ./
 
 
 
