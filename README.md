@@ -1,6 +1,6 @@
 # Example how to make a coverage report with GHDL
 
-##Requirements
+## Depends ##
 ghdl
 gcc
 gcov
