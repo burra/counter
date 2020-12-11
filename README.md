@@ -1,10 +1,10 @@
 # Example how to make a coverage report with GHDL
 
-## Depends ##
-ghdl
-gcc
-gcov
-lcov
+Depends
+* ghdl
+* gcc
+* gcov
+* lcov
 
 Analyze files
 
